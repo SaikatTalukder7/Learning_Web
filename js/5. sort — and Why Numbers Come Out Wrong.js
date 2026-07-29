@@ -4,6 +4,8 @@ console.log(nums) // wrong sort cameo out because it doeas not see as number dir
 nums.sort((a, b) => a - b); // [4, 11, 30, 200] — correct
 console.log(nums)
 
+nums.sort((a, b) => b - a); // [200, 30, 11, 4] — decsending
+console.log(nums)
 
 const products = [
 { name: "Bag", price: 1200 },
