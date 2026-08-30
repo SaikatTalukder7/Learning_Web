@@ -1,0 +1,4 @@
+A6. In one sentence each: why does typeof [] answer "object", and what is the correct way to test for an array?
+  
+  1. typeof [] returns "object" because arrays are a special type of object in JavaScript.
+  2. The correct way to check whether something is an array is Array.isArray(value).
